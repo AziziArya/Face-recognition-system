@@ -1,0 +1,12 @@
+# Core dependencies (verified from source notebooks)
+opencv-python>=4.8,<5
+face-recognition>=1.3,<2
+numpy>=1.24,<2
+
+# face-recognition's underlying detector/encoder (installed automatically
+# as a dependency of face-recognition, listed here for visibility).
+# Building it from source requires CMake and a C++ compiler.
+dlib>=19.24
+
+# Dev / testing only
+pytest>=8.0

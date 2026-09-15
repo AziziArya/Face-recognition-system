@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing / tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Real enrolled face photos (do not commit real biometric photos)
+known_faces/**/*.jpg
+known_faces/**/*.jpeg
+known_faces/**/*.png
+known_faces/**/*.jfif
+known_faces/**/*.bmp
+!known_faces/README.md
+
+# Local outputs
+*.log
